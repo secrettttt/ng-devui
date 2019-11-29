@@ -11,6 +11,7 @@ import { DragDropModule } from 'ng-devui/dragdrop';
 import { DrawerModule } from 'ng-devui/drawer';
 import { DropDownModule } from 'ng-devui/dropdown';
 import { EditableSelectModule } from 'ng-devui/editable-select';
+import { ImagePreviewModule } from 'ng-devui/image-preview';
 import { LoadingModule } from 'ng-devui/loading';
 import { ModalModule } from 'ng-devui/modal';
 import { PaginationModule } from 'ng-devui/pagination';
@@ -48,6 +49,7 @@ export * from 'ng-devui/dragdrop';
 export * from 'ng-devui/drawer';
 export * from 'ng-devui/dropdown';
 export * from 'ng-devui/editable-select';
+export * from 'ng-devui/image-preview';
 export * from 'ng-devui/loading';
 export * from 'ng-devui/modal';
 export * from 'ng-devui/pagination';
@@ -89,6 +91,7 @@ export * from './version';
     DrawerModule,
     DropDownModule,
     EditableSelectModule,
+    ImagePreviewModule,
     LoadingModule,
     ModalModule,
     PaginationModule,

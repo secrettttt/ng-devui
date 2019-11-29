@@ -157,6 +157,18 @@ export const routesConfig = [
     }
   },
   {
+    path: 'image-preview',
+    component: ExamplePanelComponent,
+    loadChildren: '../../../devui/image-preview/demo/image-preview-demo.module#ImagePreviewDemoModule',
+    data: {
+      type: '数据展示',
+      name: 'ImagePreview',
+      cnName: '图片预览',
+      description: '支持图片预览。',
+      tmw: '当需要预览图片时。'
+    }
+  },
+  {
     path: 'loading',
     component: ExamplePanelComponent,
     loadChildren: '../../../devui/loading/demo/loading-demo.module#LoadingDemoModule',
